@@ -9,8 +9,35 @@
     background: linear-gradient(#e91e63,#ff6090,#b0003a) !important ;
     width: 100%;
     height: 50%;
-    position: absolute;
+    position: fixed;
     font-size: 30pt;
+}
+@keyframes spin{
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.setting-i{
+    
+    color: white;
+    margin-left: 87%;
+    margin-top: 2%;
+   
+}
+.settings
+{
+    position: absolute;
+    z-index: 1;
+    left: 61%;
+    top: 10%;
+    background: white;
+    width: 39%;
+    height: 30%;
+    animation: show 3s;
+    overflow: -webkit-paged-y;
+}
+@keyframes show {
+    from{ height: 0%}
+    to {height:  30%}
 }
 .card-i{
     display: inline;
