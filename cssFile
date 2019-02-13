@@ -1,0 +1,32 @@
+.ion-page{
+    background: linear-gradient(#e91e63,#ff6090,#b0003a) !important ;
+}
+.card-test{
+    border-radius: 10px;
+}
+.card-i{
+    display: inline;
+    font-size: 15pt;
+    
+}
+.card-line{
+    border-right: solid;
+    position: absolute;
+    border-color: white;
+    width: 3%;
+}
+.card-title{
+    margin-left: 4%;
+    padding-top: 1%;
+}
+.card-header
+{
+    background: #8080809c;
+    display: inline-flex;
+    padding: 3%;
+    width: 100%;
+}
+.card-date{
+    margin-left: 44%;
+    padding-top: 1%;
+}
