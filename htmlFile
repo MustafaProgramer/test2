@@ -1,12 +1,37 @@
-<div class="top-page">
-    <i class="fas fa-band-aid"></i>
-</div>
+
 
 <head>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
     crossorigin="anonymous">
 </head>
-
+<div class="top-page">
+    <i (click)="animate();" class="fas fa-cog setting-i" id='mm'></i>
+</div>
+<div class='settings'>
+  settings
+  <br>
+  abc
+  <br>
+  abc
+  <br>
+  abc
+  <br>
+  abc
+  <br>
+  abc
+  <br>
+  abc
+  <br>
+  abc
+  <br>
+  abc
+  <br>
+  abc
+  <br>
+  abc
+  <br>
+  abc
+</div>
 
 <div style="background: linear-gradient(#e91e63,#ff6090,#b0003a) !important ;margin-top: 20%">
 
@@ -16,7 +41,7 @@
       <div class="card-i">
         <ion-icon *ngIf="session.sType=='missed'" name="information-circle"></ion-icon>
       </div>
-      <i *ngIf="session.sType=='comming'" class='fas fa-envelope-square card-i'></i>
+      <i  *ngIf="session.sType=='comming'" class='fas fa-envelope-square card-i'></i>
       <span class="card-line">
       </span>
       <div class="card-title">
