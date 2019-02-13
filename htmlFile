@@ -1,22 +1,33 @@
-<div style="background: linear-gradient(#e91e63,#ff6090,#b0003a) !important ;">
+<div class="top-page">
+    <i class="fas fa-band-aid"></i>
+</div>
+
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+    crossorigin="anonymous">
+</head>
+
+
+<div style="background: linear-gradient(#e91e63,#ff6090,#b0003a) !important ;margin-top: 20%">
 
   <ion-card class="card-test" *ngFor="let session of settions" style="background:white;">
 
     <div class='card-header'>
       <div class="card-i">
-          <ion-icon *ngIf="session.sType=='missed'" name="information-circle"></ion-icon>
+        <ion-icon *ngIf="session.sType=='missed'" name="information-circle"></ion-icon>
       </div>
-          <span class="card-line">
-          </span>
+      <i *ngIf="session.sType=='comming'" class='fas fa-envelope-square card-i'></i>
+      <span class="card-line">
+      </span>
       <div class="card-title">
-         {{session.sTitle}}
+        {{session.sTitle}}
       </div>
       <div class='card-date'>
         {{session.sDate}}
       </div>
-     
+
     </div>
-    
+
     <ion-card-content>
       {{session.sDetails}}
     </ion-card-content>
