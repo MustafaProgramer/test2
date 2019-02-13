@@ -3,6 +3,14 @@
 }
 .card-test{
     border-radius: 10px;
+   
+}
+.top-page{
+    background: linear-gradient(#e91e63,#ff6090,#b0003a) !important ;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    font-size: 30pt;
 }
 .card-i{
     display: inline;
@@ -18,6 +26,7 @@
 .card-title{
     margin-left: 4%;
     padding-top: 1%;
+    width: 52%;
 }
 .card-header
 {
@@ -27,9 +36,10 @@
     width: 100%;
 }
 .card-date{
-    margin-left: 44%;
+    margin-left: 17%;
     padding-top: 1%;
 }
+
 
 /*
 
