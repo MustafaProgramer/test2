@@ -30,3 +30,15 @@
     margin-left: 44%;
     padding-top: 1%;
 }
+
+/*
+
+  settions = [
+    { sType: 'missed', sTime: '9:00', sDate: '2-1-2019', sTitle: 'Session One', sDetails: 'Session has been canceld' },
+    { sType: 'missed', sTime: '12:00', sDate: '9-1-2019', sTitle: 'Session Two', sDetails: 'This is session number Two' },
+    { sType: 'comming', sTime: '15:00', sDate: '15-2-2019', sTitle: 'Session Three', sDetails: 'This session (Three) Not started yet' },
+    { sType: 'attended', sTime: '17:00', sDate: '13-2-2019', sTitle: 'Session Four', sDetails: 'Dummy text for session number Four' },
+    { sType: 'comming', sTime: '8:00', sDate: '19-1-2019', sTitle: 'Session Five', sDetails: 'Dummy text for session number Five' },
+  ];
+  
+*/
