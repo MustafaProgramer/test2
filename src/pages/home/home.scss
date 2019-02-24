@@ -1,0 +1,42 @@
+page-home {
+  .T-area {
+    width: 100%;
+    height: 100%;
+  }
+  .fab-circle {
+    background: #fff;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -23px;
+    left: 155px;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -25px;
+  }
+  .fab-circle2 {
+    background: #fff;
+    position: absolute;
+    width: 66px;
+    height: 50px;
+    top: -38px;
+    left: 155px;
+    border-radius: 32%;
+    left: 48%; 
+    margin-left: -25px;
+  }
+  .fab-btn {
+    bottom: -4px;
+  }
+  .share-footer {
+    color: #fff;
+    width: 48%;
+  }
+  .save-footer {
+    color: #fff;
+    width: 49%;
+  }
+  .footer-container {
+    background: #4989ff;
+  }
+}

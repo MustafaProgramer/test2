@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      FirstPage
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button full (click)="navi()">open modal</button>
+  <textarea class="T-area"></textarea>
+  <ion-fab center bottom edge>
+    <button class="fab-btn" ion-fab mini>
+      <ion-icon name="add"></ion-icon>
+    </button>
+    <ion-fab-list>
+      <button ion-fab> 
+        <ion-icon name="logo-facebook"></ion-icon>
+      </button>
+      <button ion-fab>
+        <ion-icon name="logo-twitter"></ion-icon>
+      </button>
+      <button ion-fab>
+        <ion-icon name="logo-vimeo"></ion-icon>
+      </button>
+      <button ion-fab>
+        <ion-icon name="logo-googleplus"></ion-icon>
+      </button>
+    </ion-fab-list>
+  </ion-fab>
+</ion-content>
+<ion-footer no-border>
+  <ion-toolbar transparent>
+    <div  class="footer-container"  text-uppercase>
+      <button ion-button clear class="save-footer"> Save</button>
+      <button ion-button clear class="share-footer"> Share</button>
+
+    </div>
+    <div class="fab-circle"></div>
+    <div class="fab-circle2"></div>
+  </ion-toolbar>
+</ion-footer>
